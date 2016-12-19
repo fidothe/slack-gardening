@@ -8,6 +8,9 @@ It depends on the `slack-ruby-client` ruby gem.
 You need to have a Slack API token and to know which team you're a member of
 and want to delete files from.
 
+## Getting a Slack API token
+You can use one of Slack’s ‘test API tokens’ for this. To get one, visit https://api.slack.com/docs/oauth-test-tokens and create one for the appropiate team. Keep it safe and secret, anyone with this token can do anything on Slack you can, acting as you.
+
 ## Usage
 
 1. Download / clone this repository
