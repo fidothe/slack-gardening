@@ -13,15 +13,15 @@ You can use one of Slack’s ‘test API tokens’ for this. To get one, visit h
 
 ## Usage
 
-1. Download / clone this repository
-2. Install dependencies using bundler:
-    ```
-    $ bundle install
-    ```
-2. Run the script, being careful to set the environment correctly
-    ```
-    $ SLACK_API_TOKEN=<your-token-here> SLACK_API_TEAM=<your-team-name> bundle exec ruby delete-large-files.rb
-    ```
+* Download / clone this repository
+* Install dependencies using bundler:
+```
+$ bundle install
+```
+* Run the script, being careful to set the environment correctly
+```
+$ SLACK_API_TOKEN=<your-token-here> SLACK_API_TEAM=<your-team-name> bundle exec ruby delete-large-files.rb
+```
 
 ## License
 
