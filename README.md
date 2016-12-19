@@ -1,4 +1,4 @@
-# Delete large files (> 10MB) from your user account
+# Delete large files (> 10MB) from your user account, or find out how many MB of file storage you are using
 
 If you have to free up file storage space in a Slack team on a free plan, this
 script will delete all files belonging to your user that are bigger than 10 MB.
@@ -21,6 +21,10 @@ $ bundle install
 * Run the script, being careful to set the environment correctly
 ```
 $ SLACK_API_TOKEN=<your-token-here> SLACK_API_TEAM=<your-team-name> bundle exec ruby delete-large-files.rb
+```
+or
+```
+$ SLACK_API_TOKEN=<your-token-here> SLACK_API_TEAM=<your-team-name> bundle exec ruby size-files.rb
 ```
 
 ## License
